@@ -1,0 +1,89 @@
+{
+  "name": "@bitecraft/jswhere",
+  "description": "JSWhere is a lightweight and precise JavaScript library that detects the exact runtime environment of your application, including React Native, Expo, Vite, Next.js, NestJS, and more.",
+  "version": "0.0.4",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "biome check ./src",
+    "lint:fix": "biome check --write ./src",
+    "format": "biome format ./src",
+    "format:fix": "biome format --write ./src",
+    "test": "vitest run --config vitest.config.ts",
+    "test:watch": "vitest --typecheck --config vitest.config.ts",
+    "test:unit": "vitest run --typecheck tests/unit --config vitest.config.ts",
+    "test:coverage": "vitest run --coverage --config vitest.config.ts",
+    "publish:local": "tsup && yalc publish",
+    "watch": "npm run build && tsup --watch --onSuccess \"yalc push\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "environment",
+    "detect",
+    "runtime",
+    "framework",
+    "platform",
+    "JavaScript",
+    "JS",
+    "Node.js",
+    "React",
+    "React Native",
+    "Expo",
+    "Vite",
+    "Next.js",
+    "NestJS",
+    "frontend",
+    "backend",
+    "SSR",
+    "client-side",
+    "server-side",
+    "detection",
+    "env",
+    "check",
+    "where",
+    "JSWhere",
+    "cross-platform",
+    "universal"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.10.10",
+    "@vitest/coverage-v8": "3.0.7",
+    "concurrently": "^9.1.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  },
+  "author": "BiteCraft - Vinicius Borges <viniciusborgeis@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://verdaccio.tempo.bitecraft.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiteCraft/jswhere.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BiteCraft/jswhere/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module"
+}

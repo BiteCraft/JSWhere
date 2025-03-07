@@ -1,0 +1,15 @@
+export type RuntimeEnvironment =
+  | "expo"
+  | "react-native"
+  | "vite"
+  | "nextjs"
+  | "nestjs"
+  | "browser"
+  | "node"
+  | "electron"
+  | "remix"
+  | "nuxt"
+  | "sveltekit"
+  | "deno"
+  | "bun"
+  | "unknown";
