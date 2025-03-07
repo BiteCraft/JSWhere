@@ -73,7 +73,7 @@
   "author": "BiteCraft - Vinicius Borges <viniciusborgeis@gmail.com>",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://verdaccio.tempo.bitecraft.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
