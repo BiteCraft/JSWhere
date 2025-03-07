@@ -16,15 +16,15 @@
 
 ## Table of Contents
 
-• [Overview](#overview)  
-• [Features](#features)  
-• [Installation](#installation)  
-• [Usage](#usage)  
-• [Supported Environments](#support-environments)
-• [Development](#development)  
-• [API Reference](#api-reference)  
-• [Contributing](#contributing)  
-• [License](#license)  
+• [Overview](#overview-)  
+• [Features](#features-)  
+• [Installation](#installation-)  
+• [Usage](#usage-)  
+• [Supported Environments](#supported-environments-)
+• [Development](#development-) 
+• [API Reference](#api-reference-)  
+• [Contributing](#contributing-)  
+• [License](#license-)  
 
 ## Overview 🎯
 
