@@ -1,7 +1,7 @@
 {
   "name": "@bitecraft/jswhere",
   "description": "JSWhere is a lightweight and precise JavaScript library that detects the exact runtime environment of your application, including React Native, Expo, Vite, Next.js, NestJS, and more.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -73,7 +73,8 @@
   "author": "BiteCraft - Vinicius Borges <viniciusborgeis@gmail.com>",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
